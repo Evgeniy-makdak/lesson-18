@@ -34,7 +34,7 @@ def create_database(connection, query):
         print(f"The error '{e}' occurred")
 
 
-create_database_query = "CREATE DATABASE sm_app"
+create_database_query = "CREATE DATABASE main_animals"
 create_database(connection, create_database_query)
 
 
